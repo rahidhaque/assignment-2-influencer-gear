@@ -17,7 +17,7 @@
 
 .container{
     background-color: #FFFFFF;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0px 30px;
     margin-top: 100px;
@@ -239,7 +239,10 @@ h3{
 --------------Media Styles--------------
  */
  /* Mobile Device */
- @media (max-width:800px){
+ @media only screen and (min-width: 0px) and (max-width:576px){
+     .container{
+         width: 100%;
+     }
     .banner{
         grid-template-columns: 1fr;
         height: fit-content;
