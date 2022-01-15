@@ -18,7 +18,7 @@
  .container{
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0px 8px;
+    padding: 0px 30px;
     margin-top: 100px;
 }
  .main-button{
@@ -306,9 +306,12 @@ h3{
         padding: 50px 0;
     }
     .voting-left img{
+        width: 299px;
+        height: 188px;
         padding-right: 80px;
-    }
+    }  
+}
+/* Tablet */
+@media only screen and (min-width:689px) and (max-width:1024px){
 
-
-     
 }
