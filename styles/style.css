@@ -254,6 +254,12 @@ h3{
      .container{
          width: 100%;
      }
+     .page-title h1{
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 700;
+        text-align: center;
+     }
     .banner{
         grid-template-columns: 1fr;
         height: fit-content;
