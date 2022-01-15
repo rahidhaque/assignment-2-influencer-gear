@@ -14,11 +14,14 @@
  body{
     font-family: 'Poppins', sans-serif;
  }
- .container{
-    max-width: 1600px;
+
+.container{
+    background-color: #FFFFFF;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0px 150px;
+    padding: 0px 30px;
     margin-top: 100px;
+    align-items: center;
 }
  .main-button{
     border: 0;
@@ -50,10 +53,41 @@ h3{
     font-weight: 500;
 }
 
+
 .section-title{
     text-align: center;
 }
+/* 
+--------------Navigation Styles--------------
+ */
+ .page-title h1{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+ }
 
+  nav{
+    display: flex;
+    justify-content: space-between;
+    height: 96px;
+    align-items: center;
+} 
+.navigation{
+    display: flex;
+}
+
+.navigation li{
+    list-style: none;
+}
+
+.navigation li a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 600;
+    padding: 0px 34px;
+}
+
+ 
  /* 
 --------------Banner Styles--------------
  */
@@ -130,6 +164,47 @@ h3{
     margin-right: 220px;
     
  }
+ .see-more{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    color: #E02C6D;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+ }
+ .see-more .icon-color{
+     font-size: 16px;
+     line-height: 24px;
+     color: #E02C6D;
+     text-decoration: none;
+
+ }
+ /* 
+--------------Voting Styles--------------
+ */
+ .voting{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+ }
+ .voting-left img{
+    width: 404px;
+    height: 270px;
+ }
+ 
+ .voting-right p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 16px;
+ }
+ .voting-right p{
+     font-size: 16px;
+     line-height: 28px;
+     color: #6C6C6C;
+
+ }
  /* 
 --------------Footer Styles--------------
  */
@@ -160,3 +235,76 @@ h3{
      padding-right: 15px;
      padding-left: 20px;
  }
+ /* 
+--------------Media Styles--------------
+ */
+ /* Mobile Device */
+ @media (max-width:800px){
+    .banner{
+        grid-template-columns: 1fr;
+        height: fit-content;
+    }
+    .banner-left{
+        order: 2;
+        padding: 50px 0;
+    }
+    .main-button{
+        margin-left: 50px;
+    }
+    .banner-right img{
+        padding-right: 100px;
+        width: 257px;
+        height: 257px;
+    }
+    h1{
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+        margin-bottom: 16px;
+    }
+    .banner-left p{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 21px;
+        margin-right: 50px;
+        margin-bottom: 16px;
+     }
+
+     h2{
+         text-align: center;
+     }
+
+     .logo{
+        flex: none;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+
+     .collections{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        align-items: center;
+    }
+    
+    
+   
+    .voting{
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    
+    .voting-right p{
+        margin-right: 20px;
+    }
+    .voting-right .main-button{
+        margin-left: 100px;
+    }
+
+    .voting-left{
+        order: 2;
+        padding: 50px 0;
+    }
+     
+}
