@@ -15,13 +15,11 @@
     font-family: 'Poppins', sans-serif;
  }
 
-.container{
-    background-color: #FFFFFF;
-    max-width: 1400px;
+ .container{
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0px 30px;
     margin-top: 100px;
-    align-items: center;
 }
  .main-button{
     border: 0;
@@ -239,7 +237,7 @@ h3{
 --------------Media Styles--------------
  */
  /* Mobile Device */
- @media only screen and (min-width: 0px) and (max-width:576px){
+ @media (max-width:800px){
      .container{
          width: 100%;
      }
@@ -251,9 +249,9 @@ h3{
         order: 2;
         padding: 50px 0;
     }
-    .main-button{
+    /* .main-button{
         margin-left: 50px;
-    }
+    } */
     .banner-right img{
         padding-right: 100px;
         width: 257px;
@@ -269,8 +267,8 @@ h3{
         font-size: 16px;
         font-weight: 600;
         line-height: 21px;
-        margin-right: 50px;
-        margin-bottom: 16px;
+        padding-right: 50px;
+        padding-bottom: 16px;
      }
 
      h2{
@@ -299,15 +297,16 @@ h3{
     }
     
     .voting-right p{
-        margin-right: 20px;
+        padding-right: 80px;
     }
-    .voting-right .main-button{
-        margin-left: 100px;
-    }
+    
 
     .voting-left{
         order: 2;
         padding: 50px 0;
+    }
+    .voting-left img{
+        padding-right: 80px;
     }
      
 }
