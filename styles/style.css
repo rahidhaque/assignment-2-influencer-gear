@@ -1,0 +1,162 @@
+/* 
+--------------Fonts--------------
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Manrope:wght@700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@700&display=swap');
+/* 
+--------------Common Styles--------------
+
+ */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    font-family: 'Poppins', sans-serif;
+ }
+ .container{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0px 150px;
+    margin-top: 100px;
+}
+ .main-button{
+    border: 0;
+    outline: 0;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color: white;
+    font-size: 16px;
+    border-radius: 15px;
+ }
+ .icon-color{
+     color: white;
+ }
+ h1{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 16px;
+}
+h2{
+    font-size: 28px;
+    line-height: 70px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+h3{
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.section-title{
+    text-align: center;
+}
+
+ /* 
+--------------Banner Styles--------------
+ */
+ .banner{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+ }
+
+ .banner-left p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 16px;
+ }
+ .banner-right img{
+     height: 414px;
+     width: 440px;
+ }
+ .banner-left{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+ }
+ .banner-right{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-end;
+ }
+ 
+/* 
+--------------Logo Styles--------------
+ */
+ .logo{
+     display: flex;
+     justify-content: space-between;
+ }
+ /* 
+--------------Collection Styles--------------
+ */
+ .collections{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 30px;
+ }
+ 
+ 
+ .collection-price p{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400px;
+    font-family: 'Inter', sans-serif;
+ }
+ .star-icon{
+     color: #FB8200;
+     width: 11.07px;
+     height: 10.32px;
+     padding-right: 20px;
+ }
+ .rating-number{
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #5E6366;
+ }
+ .availability{
+    font-family: 'Inter', sans-serif;
+    color: #787885;
+    font-size: 14px;
+    line-height: 143%;
+    font-weight: 700;
+    margin-right: 220px;
+    
+ }
+ /* 
+--------------Footer Styles--------------
+ */
+ footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    margin-top: 100px;
+    height: 239px;
+    font-weight: 700;
+ }
+ .product{
+     font-size: 24px;
+     font-weight: 700;
+     color: white;
+     margin-bottom: 5px;
+ }
+ footer p{
+    color:#D9DBE1;
+    font-size: 14px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    margin-bottom: 5px;
+ }
+ .social-links a{
+     padding-right: 15px;
+     padding-left: 20px;
+ }
